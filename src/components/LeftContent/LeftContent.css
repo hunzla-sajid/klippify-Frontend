@@ -1,0 +1,46 @@
+.left-content {
+  padding-top: 100px; /* Added */
+  padding-bottom: 60px; /* Keep this to vertically center below content */
+  height: 100%;
+  width: 574px;
+  background: linear-gradient(180deg, #001133 100%, #000000 0%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Important: align from top */
+  text-align: center;
+}
+
+
+
+.left-logo {
+
+  margin-top: 14em; 
+  width: 64px;
+  height: 64px;
+  margin-bottom: 4px;
+}
+
+.left-texts h2 {
+  
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.gradient-text {
+  font-size: 20px;
+  font-weight: 600;
+  background: linear-gradient(to right, #2e68ff, #68d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtext {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
